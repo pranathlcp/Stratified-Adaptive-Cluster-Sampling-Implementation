@@ -12,16 +12,14 @@ To translate this example into a sampling design, we can view Ontario and Manito
 
 Figure 1 and Figure 2 shows the arrival patterns of truck drivers to each unit (city) of the population. The dots in Figure 1 represent the number of times that the unit has been approached by truck drivers, whereas their corresponding $y$ values are shown in Figure 2. According to these figures, it can be seen that we have $N_1 = 72$ units from *Stratum 1* and $N_2 = 72$ units from *Stratum 2* to give a total of $N = 144$.
 
-<div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
-  <div style="text-align: center;">
-    <img src="figures/fig-1.svg" alt="Figure 1" style="width: 98%;">
-    <p><strong>Figure 1:</strong> Point objects representing number of times truck drivers approached cities</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="figures/fig-2.svg" alt="Figure 2" style="width: 94.5%;">
-    <p><strong>Figure 2:</strong> Translated <em>y</em> values representing the number of times truck drivers approached cities</p>
-  </div>
-</div>
+![](/figures/fig-1.svg)
+
+**Figure 1:** Point objects representing number of times truck drivers approached cities
+
+
+![](/figures/fig-2.svg)
+
+**Figure 2:** Translated $y$ values representing the number of times truck drivers approached cities
 
 Next, stratified random sampling can be applied to obtain the sample illustrated in Figure 1. In this scenario, four units are randomly selected from each stratum ($n_1 = 4, n_2 = 4$, with a total of $n = n_1 + n_2 = 8$). Units with $y=2 (\geq 1)$ and $y=4 (\geq 1)$ are also included in the initial sample. The selected units are highlighted in grey.
 
@@ -29,49 +27,44 @@ Next, stratified random sampling can be applied to obtain the sample illustrated
 
 **Figure 3:** Applying stratified random sampling as the initial step
 
-We can define the neighborhood of a unit as the units to the North, East, South, and West of the unit being considered. Next, the process of adaptive cluster sampling can be applied gradually in multiple steps, as shown in Figure 3. In the steps shown, blue cells represent the units that were newly added to the sample, and Figure 3 (j) shows the final sample after the gradual expansion process.
+We can define the neighborhood of a unit as the units to the North, East, South, and West of the unit being considered. Next, the process of adaptive cluster sampling can be applied gradually in multiple steps, as shown in Figure 4. In the steps shown, blue cells represent the units that were newly added to the sample, and Figure 4 (j) shows the final sample after the gradual expansion process.
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-  <div style="text-align: center;">
-    <img src="figures/fig-3-1.svg" alt="(a) Step 1" style="width: 100%;">
-    <p><strong>(a) Step 1</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="figures/fig-3-2.svg" alt="(b) Step 2" style="width: 100%;">
-    <p><strong>(b) Step 2</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="figures/fig-3-3.svg" alt="(c) Step 3" style="width: 100%;">
-    <p><strong>(c) Step 3</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="figures/fig-3-4.svg" alt="(d) Step 4" style="width: 100%;">
-    <p><strong>(d) Step 4</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="figures/fig-3-5.svg" alt="(e) Step 5" style="width: 100%;">
-    <p><strong>(e) Step 5</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="figures/fig-3-6.svg" alt="(f) Step 6" style="width: 100%;">
-    <p><strong>(f) Step 6</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="figures/fig-3-7.svg" alt="(g) Step 7" style="width: 100%;">
-    <p><strong>(g) Step 7</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="figures/fig-3-8.svg" alt="(h) Step 8" style="width: 100%;">
-    <p><strong>(h) Step 8</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="figures/fig-3-9.svg" alt="(i) Step 9" style="width: 100%;">
-    <p><strong>(i) Step 9</strong></p>
-  </div>
-  <div style="text-align: center;">
-    <img src="figures/fig-3-10.svg" alt="(j) Step 10" style="width: 100%;">
-    <p><strong>(j) Step 10</strong></p>
-  </div>
-</div>
+![](/figures/fig-3-1.svg)
 
-**Figure 3:** Applying Adaptive Cluster Sampling
+**Figure 4 (a): Step 1**
+
+![](/figures/fig-3-2.svg)
+
+**Figure 4 (b): Step 2**
+
+![](/figures/fig-3-3.svg)
+
+**Figure 4 (c): Step 3**
+
+![](/figures/fig-3-4.svg)
+
+**Figure 4 (d): Step 4**
+
+![](/figures/fig-3-5.svg)
+
+**Figure 4 (e): Step 5**
+
+![](/figures/fig-3-6.svg)
+
+**Figure 4 (f): Step 6**
+
+![](/figures/fig-3-7.svg)
+
+**Figure 4 (g): Step 7**
+
+![](/figures/fig-3-8.svg)
+
+**Figure 4 (h): Step 8**
+
+![](/figures/fig-3-9.svg)
+
+**Figure 4 (i): Step 9**
+
+![](/figures/fig-3-10.svg)
+
+**Figure 4 (j): Final Sample**
